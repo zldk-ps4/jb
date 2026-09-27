@@ -14,7 +14,7 @@
     function show(kind) {
       if (shown) return;
       shown = true;
-      var count = 20;
+      var count = 30;
       var number = Math.floor(Math.random() * count) + 1;
       picture.onload = function () { overlay.style.display = "flex"; };
       picture.onerror = function () { shown = false; };
